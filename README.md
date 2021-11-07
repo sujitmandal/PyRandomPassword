@@ -1,11 +1,15 @@
 ## PyRandomPassword
-generate a random password using python
+generate a random password using python.
 
 
 
 ## Package Installation  : 
+## Package Installation  : 
 ```
+pip install py-random-password
 ```
+[Package Link](https://pypi.org/project/py-random-password/)
+
 
 ## Random Generate Password : 
 ```
