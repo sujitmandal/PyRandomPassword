@@ -1,9 +1,8 @@
 ## PyRandomPassword
 generate a random password using python.
 
+[![Build Status](https://app.travis-ci.com/sujitmandal/py-random-password.svg?branch=master)](https://app.travis-ci.com/sujitmandal/py-random-password) [![GitHub license](https://img.shields.io/github/license/sujitmandal/py-random-password)](https://github.com/sujitmandal/py-random-password/blob/master/LICENSE) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-random-password) ![PyPI - Wheel](https://shields.io/pypi/wheel/py-random-password/) ![PyPI](https://img.shields.io/pypi/v/py-random-password?style=plastic)
 
-
-## Package Installation  : 
 ## Package Installation  : 
 ```
 pip install py-random-password
