@@ -15,7 +15,7 @@ pip install py-random-password
 
 
 ## Random Generate Password : 
-```
+```python
 from PyRandomPassword.PyRandomPassword import RandomGeneratePassword as RandomPassword
 
 Password = RandomPassword(10)

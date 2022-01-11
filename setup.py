@@ -12,7 +12,7 @@ def readme():
 
 setup(
     name = 'py-random-password',
-    version = '0.0.3',
+    version = '0.0.4',
     description = "generate a random password using python.",
     long_description = readme(),
     long_description_content_type = 'text/markdown',
