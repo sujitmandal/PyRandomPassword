@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## PyRandomPassword
+generate a random password using python.
 
-You can use the [editor on GitHub](https://github.com/sujitmandal/py-random-password/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://app.travis-ci.com/sujitmandal/py-random-password.svg?branch=master)](https://app.travis-ci.com/sujitmandal/py-random-password) [![GitHub license](https://img.shields.io/github/license/sujitmandal/py-random-password)](https://github.com/sujitmandal/py-random-password/blob/master/LICENSE) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-random-password) ![PyPI](https://img.shields.io/pypi/v/py-random-password?style=plastic)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+[![Downloads](https://pepy.tech/badge/py-random-password)](https://pepy.tech/project/py-random-password)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Package Installation  : 
+```
+pip install py-random-password
+```
+[Package Link](https://pypi.org/project/py-random-password/)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Random Generate Password : 
+```python
+from PyRandomPassword.PyRandomPassword import RandomGeneratePassword as RandomPassword
 
-1. Numbered
-2. List
+Password = RandomPassword(10)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+print('Password : {}'.format(Password))
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## License:
+MIT Licensed
 
-### Jekyll Themes
+## Author:
+Sujit Mandal
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sujitmandal/py-random-password/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[GitHub](https://github.com/sujitmandal)
 
-### Support or Contact
+[PyPi](https://pypi.org/user/sujitmandal/)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[LinkedIn](https://www.linkedin.com/in/sujit-mandal-91215013a/)
